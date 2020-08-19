@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/entrepot"
+        android:title="Entrepot"
+        android:icon="@drawable/entrepot_24"/>
+
+
+    <item
+        android:id="@+id/type_produit"
+        android:title="Type produits"
+        android:icon="@drawable/type_24"/>
+
+    <item
+        android:id="@+id/produits"
+        android:title="Produits"
+        android:icon="@drawable/produit_24"/>
+
+    <item
+        android:id="@+id/fournisseur"
+        android:title="Fournisseur"
+        android:icon="@drawable/fournisseur_24"/>
+
+    <item
+        android:id="@+id/magasin"
+        android:title="Magasin"
+        android:icon="@drawable/magasin_24"/>
+
+
+
+
+</menu>

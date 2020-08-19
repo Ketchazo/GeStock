@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10sp"
+        android:layout_alignParentRight="true"
+        app:fab_labelStyle="@style/custom"
+        app:fab_addButtonColorPressed="@color/blanc"
+        app:fab_addButtonColorNormal="@color/orange">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/client_24"
+            app:fab_title="Clients"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/blanc"
+            app:fab_colorPressed="@color/orange"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/New"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/new_24"
+            app:fab_title="New"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/blanc"
+            app:fab_colorPressed="@color/orange"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Entrepot"
+    android:textSize="50sp"
+    android:textStyle="bold"
+    android:layout_centerInParent="true"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:background="@color/gris"
+        app:itemIconTint="@color/Noir"
+        app:itemTextColor="@color/Noir"
+        app:menu="@menu/menu_navigation" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation2"
+        android:background="@color/gris"
+        app:itemTextColor="@color/Noir"
+        app:itemIconTint="@color/Noir"
+        app:menu="@menu/menu_navigation"
+       android:layout_alignParentBottom="true"/>
+
+
+
+
+
+</RelativeLayout>
